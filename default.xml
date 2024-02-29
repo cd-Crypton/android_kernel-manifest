@@ -6,7 +6,7 @@
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
   <project path="sm6225-kernel" name="android_kernel_realme_sm6225" remote="Crypton">
-    <linkfile dest="build.config" src="build.config.aarch64" />
+    <linkfile dest="build.config" src="build.config.sm6225" />
   </project>
   
   <project path="build" name="kernel/build" remote="aosp" />
