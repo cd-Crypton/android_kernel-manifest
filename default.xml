@@ -9,6 +9,8 @@
     <linkfile dest="build.config" src="build.config.sm6225" />
   </project>
   
+  <project path="AnyKernel3" name="AnyKernel3" remote="carlodandan" revision="sm6225" />
+  
   <project path="build" name="kernel/build" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" remote="aosp" />
