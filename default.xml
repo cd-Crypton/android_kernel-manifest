@@ -5,7 +5,7 @@
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm6225-kernel" name="android_kernel_realme_sm6225" clone-depth="1" remote="carlodandan">
+  <project path="sm6225" name="android_kernel_realme_sm6225" clone-depth="1" remote="carlodandan">
     <linkfile dest="build.config" src="build.config.sm6225" />
   </project>
   
