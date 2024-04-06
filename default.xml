@@ -5,7 +5,7 @@
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm6225" name="android_kernel_samsung_sm6375" clone-depth="1" remote="carlodandan">
+  <project path="sm6375" name="android_kernel_samsung_sm6375" clone-depth="1" remote="carlodandan">
     <linkfile dest="build.config" src="build.config.sm6375" />
   </project>
   
