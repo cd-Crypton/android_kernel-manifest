@@ -5,9 +5,7 @@
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
-  <project path="sm6375" name="android_kernel_samsung_sm6375" clone-depth="1" remote="carlodandan">
-    <linkfile dest="build.config" src="build.config.sm6375" />
-  </project>
+  <project path="sm6375" name="android_kernel_samsung_sm6375" clone-depth="1" remote="carlodandan" />
   
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android-5.4" />
