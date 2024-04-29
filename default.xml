@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="carlodandan" fetch="https://github.com/carlodandan" revision="lineage-20" />
+  <remote name="carlodandan" fetch="https://github.com/carlodandan" revision="lineage-21" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
